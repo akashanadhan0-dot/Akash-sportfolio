@@ -1,0 +1,176 @@
+@media screen and (max-width:600px) {
+    .my-self{
+    display: flex;
+   left: 0px;
+    font-size: 26px;
+    position: absolute;
+    top: 170px;
+ }
+  .info{
+     width: 100%;
+     margin-left: 119px;
+    
+ }
+ span{
+   color: black;
+ }
+ .box{
+    display: none;
+ }
+ .info .name{
+    font-size: 45px;
+    
+ }
+ .btn2, .btn1{
+    background-color: black;
+    color: white;
+    margin: 0;
+    margin-top: 20px;
+ }
+}
+@media screen and (min-width:600px) and (max-width:768px)
+{
+    .nav-bar h1{
+   
+    padding-top: 20px;
+    height: 100px;
+    width: 500px;
+    border-top-right-radius:80px ;
+     border-bottom-right-radius:80px ;
+     color: white;
+     text-align: center;
+     background-color: black;
+    
+}
+    ul a:last-child{
+   color: black;
+}
+ul a:nth-child(3){
+   color: black;
+}
+img{
+    display: none;
+}
+    .nav-bar{
+        display: unset;
+    }
+    ul{
+        margin-top: 30px;
+        padding: 5%;
+    }
+    .my-self{
+    display: flex;
+   left: 0px;
+    font-size: 36px;
+    position: absolute;
+    top: 300px;
+ }
+  .info{
+     width: 100%;
+     margin-left: 119px;
+    
+ }
+ span{
+   color: black;
+ }
+ .box{
+    display: none;
+ }
+ .info .name{
+    font-size: 65px;
+    
+ }
+ .btn2, .btn1{
+    background-color: black;
+    color: white;
+    margin: 0;
+    margin-top: 20px;
+ }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+
+  .nav-bar h1{
+   
+    padding-top: 20px;
+    height: 100px;
+    width: 500px;
+    border-top-right-radius:80px ;
+     border-bottom-right-radius:80px ;
+     color: white;
+     text-align: center;
+     background-color: black;
+    
+}
+
+ul a:first-child{
+    margin-left: 30px;
+}
+    ul a:last-child{
+   color: black;
+}
+ul a:nth-child(3){
+   color: black;
+}
+img{
+    display: none;
+}
+    .nav-bar{
+        display: unset;
+    }
+    ul{
+        font-size: 35px;
+        padding: 5%;
+        justify-content: center;
+    }
+    .my-self{
+    display: flex;
+   left: 0px;
+    font-size: 36px;
+    position: absolute;
+    margin-top: 100px;
+
+ }
+  .info{
+     width: 100%;
+     margin-left: 119px;
+    
+ }
+ span{
+   color: black;
+ }
+ .box{
+    display: none;
+ }
+ .info .name{
+    font-size: 65px;
+    
+ }
+ .btn2, .btn1{
+    background-color: black;
+    color: white;
+    margin: 0;
+    margin-top: 20px;
+ }
+
+}
+@media screen and (min-width:1024px) and (max-width:1440px){
+    .my-self{
+    display: flex;
+   left: 30px;
+    font-size: 40px;
+    position: absolute;
+    top: 170px;
+
+ }
+ img{
+     width: 300px;
+    height: 500px;;
+    background-color: transparent;
+    border: 5px solid black;
+    padding-top: 30px;
+     padding-left: 30px;
+      padding-right: 30px;
+    border-radius: 30px;
+ }
+}

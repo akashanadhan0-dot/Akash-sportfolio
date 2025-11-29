@@ -1,0 +1,62 @@
+@media screen and (max-width:600px) {
+    .proj-box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+        
+    }
+   
+     .boxs{
+    width: 50%;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 1s;
+    overflow: hidden;
+margin-top: 20px;
+   
+ }
+  .box1:hover{
+    width: 95%;
+  }
+  .box1:hover .conten{
+    opacity: 0;
+  }
+.box1:hover~.box2{
+    width: 50%;
+    height: 550px;
+   
+}
+.box1:hover~.box3{
+     width: 50%;
+    height: 550px;
+}
+.box1:hover~.box4{
+    width: 50%;
+    height: 550px;
+}
+.box1:hover~.box5{
+    width: 50%;
+    height: 550px;
+}
+}
+@media screen and (min-width:600px) and (max-width:768px)
+{
+    /* .nav-bar{
+        display: unset;
+       
+    } */
+     
+    ul{
+        margin-top: 35px;
+      padding-left: 5%;
+    
+    }
+}
+@media screen and (min-width:768px) and (max-width:1324px)
+{
+    ul{
+        margin-left: 50px;
+    }
+}

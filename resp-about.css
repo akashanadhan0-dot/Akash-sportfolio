@@ -1,0 +1,27 @@
+@media screen  and (max-width:600px) {
+   
+   .nav-bar h1 {
+    padding-top: 5px;
+    height: 56px;
+    width: 260px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+.in-myself{
+    width: 100%;
+}
+ .btn{
+    margin: auto;
+    margin-top: 30px;
+ }
+ .skills{
+    width: 90%;
+    /* height: 150px; */
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-top: 20px;
+ }
+}

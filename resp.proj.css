@@ -1,0 +1,107 @@
+@media screen and (max-width:600px) {
+    .project{
+  display: unset;
+
+}
+ .box{
+    width: 90%;
+    height: 40%px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+    
+ }
+ body{
+overflow: scroll;
+
+ }
+ .container{
+    height: 160vh;
+ }
+ .black{
+  width: 100%;
+  height: 160vh;
+}
+.nav-bar h1{
+    font-size: 40px;
+    background-color: white;
+    color: black;
+  }
+  .bar{
+    color: white;
+  }
+  .skills3{
+    margin: 0;
+  }
+}
+@media screen and (min-width:600px) and (max-width:768px) {
+        .project{
+  display: unset;
+
+}
+ .box{
+    width: 90%;
+    height: 40%px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+    
+ }
+ body{
+overflow: scroll;
+
+ }
+ .container{
+    height: 160vh;
+ }
+ .black{
+  width: 100%;
+  height: 160vh;
+}
+.nav-bar h1{
+    font-size: 40px;
+    background-color: white;
+    color: black;
+  }
+  .bar{
+    color: white;
+  }
+  .skills3{
+    margin: 0;
+  }
+  .nav-bar{
+    display: unset;
+   
+  }
+  ul{
+    margin-top: 20px;
+    padding-left: 5%;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1400px) {
+    .skill{
+        width: 100%;
+    }
+    .inskil{
+   
+   background-color: rgba(173, 172, 172, 0.445);
+   font-size: 15px;
+   padding: 5px;
+   border-radius: 30px;
+   
+
+ }
+ .skills3{
+    margin: 0;
+ }
+ ul{
+    margin-left: 50px;
+ }
+
+}
